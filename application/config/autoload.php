@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------
@@ -55,10 +55,10 @@ $autoload['packages'] = array();
 |
 | You can also supply an alternative library name to be assigned
 | in the controller:
-|
+|	made entirely by adryansyachpc
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array( 'database', 'email', 'session');
+$autoload['libraries'] = array('email', 'session', 'database', 'form_validation');
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url', 'file', 'security');
+$autoload['helper'] = array('url', 'file', 'security', 'wpu');
 
 /*
 | -------------------------------------------------------------------
